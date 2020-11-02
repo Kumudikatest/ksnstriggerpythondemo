@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f5e7ae55-ddc7-4b1a-b9c9-6609125a8ae2": {
+        "id": "f5e7ae55-ddc7-4b1a-b9c9-6609125a8ae2",
+        "parent": null,
+        "name": "ksnstriggerpythondemo.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ksnstriggerpythondemo.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "ksnstriggerpythondemo"
+        },
+        "triggers": [
+          {
+            "resourceName": "snsktopic",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1604300325944
+      }
+    },
+    "openFiles": [
+      "f5e7ae55-ddc7-4b1a-b9c9-6609125a8ae2"
+    ],
+    "currentFileId": "f5e7ae55-ddc7-4b1a-b9c9-6609125a8ae2",
+    "resources": {
+      "snsktopic": {
+        "name": "snsktopic",
+        "type": "SNS",
+        "config": {
+          "topicMode": 0,
+          "topicName": "ktopic",
+          "topicArn": "arn:aws:sns:us-east-1:CUR_AWS_ACCOUNT:ktopic",
+          "snsType": 0,
+          "topicDisplayName": "ktopicdisplayname",
+          "subscriptions": []
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.5",
+    "projectName": "ksnstriggerpythondemo",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1604300361349
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ksnstriggerpythondemo",
+      "url": "https://github.com/Kumudikatest/ksnstriggerpythondemo"
+    }
+  }
+}
